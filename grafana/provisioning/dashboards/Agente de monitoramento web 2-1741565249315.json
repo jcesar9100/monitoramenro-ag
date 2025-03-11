@@ -18,7 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 4,
+  "id": 1,
   "links": [
     {
       "asDropdown": false,
@@ -37,7 +37,7 @@
     {
       "datasource": {
         "type": "frser-sqlite-datasource",
-        "uid": "aef9xsjpr1reoc"
+        "uid": "P2D2EEF3E092AF52B"
       },
       "fieldConfig": {
         "defaults": {
@@ -149,7 +149,7 @@
         {
           "datasource": {
             "type": "frser-sqlite-datasource",
-            "uid": "aef9xsjpr1reoc"
+            "uid": "P2D2EEF3E092AF52B"
           },
           "queryText": "SELECT timestamp, rtt_avg, target, packet_loss\nFROM ping_results\nWHERE target = 'google.com'\nORDER BY timestamp ASC;\n",
           "queryType": "table",
@@ -167,7 +167,7 @@
     {
       "datasource": {
         "type": "frser-sqlite-datasource",
-        "uid": "aef9xsjpr1reoc"
+        "uid": "P2D2EEF3E092AF52B"
       },
       "fieldConfig": {
         "defaults": {
@@ -238,7 +238,7 @@
     {
       "datasource": {
         "type": "frser-sqlite-datasource",
-        "uid": "aef9xsjpr1reoc"
+        "uid": "P2D2EEF3E092AF52B"
       },
       "fieldConfig": {
         "defaults": {
@@ -310,7 +310,7 @@
     {
       "datasource": {
         "type": "frser-sqlite-datasource",
-        "uid": "aef9xsjpr1reoc"
+        "uid": "P2D2EEF3E092AF52B"
       },
       "fieldConfig": {
         "defaults": {
@@ -440,7 +440,7 @@
     {
       "datasource": {
         "type": "frser-sqlite-datasource",
-        "uid": "aef9xsjpr1reoc"
+        "uid": "P2D2EEF3E092AF52B"
       },
       "fieldConfig": {
         "defaults": {
@@ -511,7 +511,7 @@
     {
       "datasource": {
         "type": "frser-sqlite-datasource",
-        "uid": "aef9xsjpr1reoc"
+        "uid": "P2D2EEF3E092AF52B"
       },
       "fieldConfig": {
         "defaults": {
@@ -583,7 +583,7 @@
     {
       "datasource": {
         "type": "frser-sqlite-datasource",
-        "uid": "aef9xsjpr1reoc"
+        "uid": "P2D2EEF3E092AF52B"
       },
       "fieldConfig": {
         "defaults": {
@@ -713,7 +713,7 @@
     {
       "datasource": {
         "type": "frser-sqlite-datasource",
-        "uid": "aef9xsjpr1reoc"
+        "uid": "P2D2EEF3E092AF52B"
       },
       "fieldConfig": {
         "defaults": {
@@ -784,7 +784,7 @@
     {
       "datasource": {
         "type": "frser-sqlite-datasource",
-        "uid": "aef9xsjpr1reoc"
+        "uid": "P2D2EEF3E092AF52B"
       },
       "fieldConfig": {
         "defaults": {
@@ -869,6 +869,6 @@
   "timezone": "",
   "title": "Agente de monitoramento web 2",
   "uid": "novo",
-  "version": 23,
+  "version": 4,
   "weekStart": ""
 }
