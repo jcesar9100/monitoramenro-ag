@@ -4,6 +4,7 @@ datasources:
   - name: SQLite
     type: frser-sqlite-datasource
     access: proxy
-    url: /database/monitoramento.db
     isDefault: true
-    editable: true                                                                                            
+    editable: true
+    jsonData:
+      path: "/database/monitoramento.db"
