@@ -20,13 +20,10 @@ O sistema é orquestrado usando `docker-compose`, facilitando a execução e o g
 monitoramento-agentes/
 ├── database/
 │   ├── init.sql                 # Script de inicialização do banco de dados
-│   ├── init.sql.original        # Cópia original do script SQL inicial
-│   ├── monitoramento.db         # Banco de dados SQLite para monitoramento
+│   │   ├── monitoramento.db         # Banco de dados SQLite para monitoramento
 │   └── viaipe.db                # Banco de dados SQLite para o ViaIPE
 │
 ├── docker-compose.yml           # Configuração principal do Docker Compose
-├── docker-compose.yml.second    # Configuração secundária do Docker Compose
-│
 ├── grafana/
 │   └── provisioning/
 │       ├── dashboards/
@@ -34,27 +31,19 @@ monitoramento-agentes/
 │       │   └── monitoramento_dashboard.json  # Dashboard do Grafana
 │       └── datasources/
 │           ├── datasource.yml                 # Configuração da fonte de dados
-│           └── datasource.yml.second          # Configuração secundária da fonte de dados
 │
 ├── ping-agent/
 │   ├── Dockerfile              # Dockerfile para construir a imagem do agente de ping
-│   ├── Dockerfile.original     # Cópia original do Dockerfile
 │   ├── ping_script.sh          # Script para executar o ping
-│   └── ping_script.sh.original # Cópia original do script de ping
 │
 ├── viaipe-agent/
 │   ├── Dockerfile             # Dockerfile do agente ViaIPE
-│   ├── Dockerfile.copy        # Cópia do Dockerfile
 │   ├── requirements.txt       # Dependências Python
-│   ├── viaipe_collector.py    # Script Python de coleta do ViaIPE
-│   ├── viaipe_collector.sh    # Script shell do coletor ViaIPE
 │   └── viaipe_script.sh       # Script shell do agente ViaIPE
 │
 ├── web-test-agent/
 │   ├── Dockerfile              # Dockerfile do agente de teste web
-│   ├── Dockerfile.Default      # Cópia padrão do Dockerfile
 │   ├── web_script.sh           # Script de testes web
-│   └── web_script.sh.original  # Cópia original do script de teste web
 │
 └── README.md                   # Documentação do projeto
 ```
