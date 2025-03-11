@@ -6,3 +6,4 @@ datasources:
     access: proxy
     url: /database/monitoramento.db
     isDefault: true
+    editable: true                                                                                            
